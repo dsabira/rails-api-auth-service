@@ -1,0 +1,43 @@
+Doorkeeper::OpenidConnect.configure do
+  issuer 'http://localhost:4000'
+
+  jws_private_key <<-EOL
+-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n
+EOL
+
+  resource_owner_from_access_token do |access_token|
+    # Example implementation:
+    User.find_by(id: access_token.resource_owner_id)
+  end
+
+  auth_time_from_resource_owner do |resource_owner|
+    # Example implementation:
+    resource_owner.current_sign_in_at
+  end
+
+  reauthenticate_resource_owner do |resource_owner|
+    # Example implementation:
+    # store_location_for resource_owner, request.fullpath
+    # sign_out resource_owner
+    # redirect_to new_user_session_url
+  end
+
+  subject do |resource_owner|
+    # Example implementation:
+    resource_owner.id
+  end
+
+  # Expiration time on or after which the ID Token MUST NOT be accepted for processing. (default 120 seconds).
+  # expiration 600
+
+  # Example claims:
+  claims do
+    normal_claim :email do |resource_owner|
+      resource_owner.email
+    end
+
+  #   normal_claim :_bar_ do |resource_owner|
+  #     resource_owner.bar
+  #   end
+  end
+end
